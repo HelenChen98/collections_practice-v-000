@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   array.each do |i|
-    i<<"s"
+    i << "s"
   end
   array[1][array[1].length - 1] = ""
   return array
