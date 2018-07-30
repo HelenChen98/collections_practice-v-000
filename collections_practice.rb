@@ -44,3 +44,10 @@ def sum_array(array)
   array.each {|a| sum += a}
   return sum
 end
+
+def add_s(array)
+  array.each do |i|
+    i<<"s"
+  end
+  array[1][array[1].length - 1] = ""
+end
