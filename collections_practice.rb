@@ -38,3 +38,9 @@ def find_a(array)
   end
   return array2
 end
+
+def sum_array(array)
+  sum = 0
+  array.each {|a| sum += a}
+  return sum
+end
