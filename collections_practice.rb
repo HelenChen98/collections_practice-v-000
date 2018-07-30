@@ -28,3 +28,14 @@ def kesha_maker(array)
     i[2]="$"
   end
 end
+
+def find_a(array)
+  array2 = []
+  array.each do |i|
+    if i.first == "a"
+      array2 << i
+    end
+  end
+  return array2
+end
+
