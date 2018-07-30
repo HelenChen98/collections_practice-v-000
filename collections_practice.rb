@@ -38,4 +38,3 @@ def find_a(array)
   end
   return array2
 end
-
