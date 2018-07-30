@@ -50,4 +50,5 @@ def add_s(array)
     i<<"s"
   end
   array[1][array[1].length - 1] = ""
+  return array
 end
