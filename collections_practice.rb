@@ -32,7 +32,7 @@ end
 def find_a(array)
   array2 = []
   array.each do |i|
-    if i.first == "a"
+    if i[0] == "a"
       array2 << i
     end
   end
